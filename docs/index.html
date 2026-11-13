@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="bn">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Road Check — আদ্রার রাস্তা কেমন? / How are Adra's roads?</title>
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data: blob: https://tile.openstreetmap.org; style-src 'self' 'unsafe-inline'; script-src 'self'; connect-src 'self'; font-src 'self'; worker-src 'self'">
+<meta name="theme-color" content="#1d2a35">
+<meta name="description" content="Road roughness measured by phone on a bike around Adra, Raghunathpur and Anara, West Bengal.">
+<meta property="og:title" content="Road Check — Adra">
+<meta property="og:description" content="Which roads shake the most? Measured by phone on a bike, drawn on OpenStreetMap.">
+<meta property="og:image" content="preview.png">
+<link rel="manifest" href="manifest.json">
+<link rel="icon" href="icons/icon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="vendor/leaflet/leaflet.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top">
+  <div>
+    <h1 data-t="title"></h1>
+    <p class="sub" data-t="sub"></p>
+  </div>
+  <button id="lang" class="pill" type="button" aria-label="Language"></button>
+</header>
+
+<section class="mapwrap" aria-label="Map">
+  <div id="chips" class="chips" role="group"></div>
+  <div id="map" tabindex="0"></div>
+  <div class="legend" id="legend"></div>
+  <button id="whole" class="pill float" type="button" data-t="whole"></button>
+</section>
+
+<section class="toggles">
+  <label><input type="checkbox" id="tSpots" checked> <span data-t="spots"></span></label>
+  <label><input type="checkbox" id="tRough"> <span data-t="rough"></span></label>
+</section>
+
+<main>
+  <section class="card lead">
+    <h2 data-t="h_find"></h2>
+    <div id="bars"></div>
+    <p class="note" data-t="barnote"></p>
+  </section>
+
+  <section class="card">
+    <h2 data-t="h_spots"></h2>
+    <p class="note" data-t="spotnote"></p>
+    <ol id="spotlist" class="spotlist"></ol>
+  </section>
+
+  <section class="card">
+    <h2 data-t="h_care"></h2>
+    <ul id="care" class="care"></ul>
+  </section>
+
+  <footer>
+    <p id="credit"></p>
+    <p class="small"><span id="built"></span> · <a href="https://github.com/somdeepkundu/road-check" rel="noopener">data &amp; code</a> · <a href="https://www.openstreetmap.org/copyright" rel="noopener">© OpenStreetMap contributors</a></p>
+  </footer>
+</main>
+
+<script src="vendor/leaflet/leaflet.js"></script>
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
