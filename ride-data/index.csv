@@ -1,0 +1,12 @@
+file,name,started_utc,vehicle,mount,app,km,bumps,notes
+RoadCheck_Ride_11_Nov_08_47_adra_to_anara_20261111T0317Z.zip,Ride 11 Nov 08:47 adra to anara,2026-11-11T03:17:42.090Z,motorbike,pocket or bag,Road Check 0.2.0,14.17,58,
+RoadCheck_Ride_11_Nov_17_00_Anara_to_Adra_20261111T1128Z.zip,Ride 11 Nov 17:00 Anara to Adra,2026-11-11T11:28:34.431Z,motorbike,handlebar mount,Road Check 0.2.0,19.08,354,
+RoadCheck_Ride_11_Nov_17_54_20261111T1224Z.zip,Ride 11 Nov 17:54,2026-11-11T12:24:44.491Z,motorbike,handlebar mount,Road Check 0.2.0,1.63,118,
+RoadCheck_Ride_12_Nov_14_40_20261112T0910Z.zip,Ride 12 Nov 14:40,2026-11-12T09:10:06.470Z,motorbike,handlebar mount,Road Check 0.2.0,5.18,120,
+RoadCheck_Ride_12_Nov_15_11_rgp_to_adra_20261112T0942Z.zip,Ride 12 Nov 15:11 rgp to adra,2026-11-12T09:42:04.728Z,motorbike,pocket or bag,Road Check 0.2.0,0.72,22,
+RoadCheck_Ride_13_Nov_11_43_20261113T0613Z.zip,Ride 13 Nov 11:43,2026-11-13T06:13:03.896Z,motorbike,pocket or bag,Road Check 0.2.0,1.19,245,
+RoadCheck_Ride_13_Nov_11_49_arrah_20261113T0619Z.zip,Ride 13 Nov 11:49 arrah,2026-11-13T06:19:52.598Z,motorbike,pocket or bag,Road Check 0.2.0,0.79,101,
+RoadCheck_Ride_13_Nov_12_54_20261113T0724Z.zip,Ride 13 Nov 12:54,2026-11-13T07:24:11.671Z,motorbike,pocket or bag,Road Check 0.2.0,7.57,853,
+RoadCheck_Ride_13_Nov_13_37_rgp_to_adra_20261113T0808Z.zip,Ride 13 Nov 13:37 rgp to adra,2026-11-13T08:08:04.656Z,motorbike,pocket or bag,Road Check 0.2.0,6.35,486,
+RoadCheck_Ride_13_Nov_22_08_20261113T1638Z.zip,Ride 13 Nov 22:08,2026-11-13T16:38:25.822Z,scooter,pocket or bag,Road Check 0.2.0,0.0,0,no GPS / no stretches
+RoadCheck_Ride_Nov_11_07_36_20261111T0206Z.zip,Ride Nov 11 07:36,2026-11-11T02:06:14.314Z,motorbike,handlebar mount,Road Check 0.1.1,0.0,0,"no GPS / no stretches; bench test, not a ride"
