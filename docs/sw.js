@@ -3,7 +3,7 @@
 const VERSION = 'road-check-1.0.0';
 const TILE_CACHE = 'road-check-tiles';
 const TILE_MAX = 3000;
-const SHELL = ['./', './index.html', './app.js', './data.js', './style.css', './manifest.json',
+const SHELL = ['./', './index.html', './app.js', './data.js', './style.css', './manifest.json', './preview.jpg',
   './icons/icon.svg', './icons/icon-192.png', './icons/icon-512.png',
   './vendor/leaflet/leaflet.js', './vendor/leaflet/leaflet.css',
   './vendor/leaflet/images/layers.png', './vendor/leaflet/images/layers-2x.png',
